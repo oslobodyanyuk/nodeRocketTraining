@@ -1,1 +1,1 @@
-Work with objects and JSON
+Work with objects and JSON. Functions
