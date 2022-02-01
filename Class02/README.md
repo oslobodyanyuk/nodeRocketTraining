@@ -1,1 +1,1 @@
-Basics of js
+Class01-02. Basics of js
