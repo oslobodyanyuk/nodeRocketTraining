@@ -155,3 +155,54 @@ gameStation01.runGame('Wolf 3D')
 gameStation01.runGame('Heuretic')
 
 gameStation01.speedUp(4, 1)
+
+class Cinderella {
+    constructor(name, age, footSize) {
+        this.name = name
+        this.age = age
+        this.footSize = footSize
+    }
+
+    callCinda() {
+        console.log(this.name)
+        console.log(this.age)
+        console.log(this.footSize)
+    }
+}
+
+class Prince {
+    constructor(name, age, footCindaSize) {
+        this.name = name
+        this.age = age
+        this.footCindaSize = footCindaSize
+    }
+
+    callPrince() {
+        console.log('Принц', this.name, 'шукає свою мєчту з ', this.footCindaSize, '`м розміром педальок')
+    }
+}
+
+let princesName = [
+    ['Larisa', 'Klavdia', 'Zinaida', 'Paraska', 'Valentina', 'Khyvrya', 'Liuda', 'Vanda', 'Tamila', 'Mauzerina'],
+    [45, 63, 55, 49, 71, 59, 54, 60, 77, 57],
+    [36, 41, 40, 46, 37, 36, 39, 41, 35, 45]
+]
+const princeses = []
+console.log(princesName[0].length)
+for (let i = 0; i < princesName[0].length; i++)
+    princeses.push(new Cinderella(princesName[0][i], princesName[1][i], princesName[2][i]))
+
+for (let i = 0; i < princeses.length; i++) {
+    princeses[i].callCinda()
+}
+let prince01 = new Prince('Volodya', 55, 41)
+prince01.callPrince()
+
+for (let i = 0; i < princeses.length; i++) {
+    if (prince01.footCindaSize === princeses[i].footSize) {
+        console.log('І це в нас буде ', princeses[i].name, ' яка має рочків', princeses[i].age)
+        break
+    }
+}
+
+

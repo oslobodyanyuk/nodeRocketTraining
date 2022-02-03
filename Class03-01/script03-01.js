@@ -280,7 +280,7 @@ console.log(addArrayColumns(matrix))
  let n1 = '    Harry       Potter      '
  let n2 = '    Ron       Whisley      '
  let n3 = '    Hermione       Granger      '
- Написати функцію, яка приймає будь яке не валідне ім'я, та нормалізує його в наступнйи вигляд
+ Написати функцію, яка приймає будь яке не валідне ім'я, та нормалізує його в наступний вигляд
  let n1 = 'Harry Potter'
  let n2 = 'Ron Whisley'
  let n3 = 'Hermione Granger'.
