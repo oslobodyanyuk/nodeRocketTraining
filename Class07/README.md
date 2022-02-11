@@ -1,2 +1,3 @@
 Class06
-String Methods. Spread (rest). Array methods
+Array Methods. Reduce, Splice, Flat (New method)
+Parallel programming. Event Loop
